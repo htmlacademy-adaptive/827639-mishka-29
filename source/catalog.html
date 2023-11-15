@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Academy: Мишка</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo" href="index.html">
+        <img class="main-header__logo-image" src="img/logos/mishka-logo-mobile.svg" width="86" height="35" alt="Логотип Mishka.">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link" href="catalog.html">Каталог товаров</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Вязание на заказ</a>
+          </li>
+        </ul>
+        <ul class="main-nav__list user-list">
+          <li class="user-list__item">
+            <a class="user-list__link" href="#">Поиск по сайту</a>
+          </li>
+          <li class="user-list__item">
+            <a class="user-list__link" href="#">Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="catalog-container">
+      <div class="catalog-container__title-wrapper">
+        <h1 class="catalog-container__title">Каталог товаров</h1>
+      </div>
+      <section class="catalog">
+        <h2 class="visually-hidden">Список товаров</h2>
+        <ul class="catalog__list">
+          <li class="catalog__item card">
+            <a class="card__link" href="#">
+              <img class="card__img" src="img/catalog/photo-1-mobile.jpg" width="260" height="195" alt="">
+            </a>
+            <a class="card__link card__link--title" href="#">
+              <h3 class="card__name">Зайчик-попрыгайчик</h3>
+            </a>
+            <p class="card__description">Рост 30 см, вес 200 г</p>
+            <p class="card__price">1 200 руб.</p>
+            <button class="card__button button button--card" type="button">
+              <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="catalog__item card">
+            <a class="card__link" href="#">
+              <img class="card__img" src="img/catalog/photo-2-mobile.jpg" width="260" height="195" alt="">
+            </a>
+            <a class="card__link card__link--title" href="#">
+              <h3 class="card__name">Корзинка для белья</h3>
+            </a>
+            <p class="card__description">Диаметр 15 см, высота 10 см</p>
+            <p class="card__price">690 руб.</p>
+            <button class="card__button button button--card" type="button">
+              <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+          <li class="catalog__item card">
+            <a class="card__link" href="#">
+              <img class="card__img" src="img/catalog/photo-3-mobile.jpg" width="260" height="195" alt="">
+            </a>
+            <a class="card__link card__link--title" href="#">
+              <h3 class="card__name">Большая корзинка для игрушек</h3>
+            </a>
+            <p class="card__description">Диаметр 30 см, высота 30 см</p>
+            <p class="card__price">1 500 руб.</p>
+            <button class="card__button button button--card" type="button">
+              <span class="visually-hidden">Добавить в корзину</span>
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="process">
+        <h2 class="process__title">Процесс производства</h2>
+        <div class="process__wrapper">
+          <img class="process__img " src="img/video-mobile.jpg" width="260" height="150" alt="Видео с процессом производства.">
+        </div>
+        <p class="process__description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+        <a class="process__button button button--primary" href="form.html">Сделать заказ</a>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="main-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link">
+              <span class="visually-hidden">VK</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link">
+              <span class="visually-hidden">Youtube</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link">
+              <span class="visually-hidden">Telegram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__developer developer">
+        <a class="developer__link">
+          <span class="developer__text">Разработано</span>
+          <img class="developer__img" src="img/logos/htmlacademy.svg.svg" alt="Логотип HTML Academy.">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
